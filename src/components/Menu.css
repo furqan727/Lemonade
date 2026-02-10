@@ -1,0 +1,41 @@
+/* --- MENU SECTION (DYNAMIC) --- */
+.menu-section {
+
+  background-image: url('/menu.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-title { text-align: center; margin-bottom: 50px; }
+.section-title h2 { font-size: 2.5rem; color: rgb(255 193 7); }
+.section-title span { color: #FF5722; font-family: 'Pacifico', cursive; font-size: 1.5rem; }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 25px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.filter-btn.active, .filter-btn:hover {
+  background: #FFC107;
+  border-color: #FFC107;
+  color: #212121;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}

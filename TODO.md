@@ -1,0 +1,9 @@
+- [x] Move logo.jpg to public/logo.jpg
+- [x] Move background.jpeg to public/background.jpeg
+- [x] Update Header.jsx to use img tag for logo
+- [x] Update src/index.css to set background image
+- [x] Adjust Header.css for logo img styling if needed
+- [x] Test the changes
+- [x] Fix img tag in Header.jsx (correct src and width)
+- [x] Update Header.css to style logo image
+- [x] Add background image to menu section in Menu.css
